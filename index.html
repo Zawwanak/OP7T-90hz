@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OP7T-Camera</title>
+    <link rel="stylesheet" href="90hz.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:700&display=swap" rel="stylesheet">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      
+      <div class="containerx">
+
+          <nav class="nav1">
+              <a href="index.html" class="logo">
+                #90Hzdisplay
+              </a>
+              <label for="toggle">&#9776</label>
+              <input type="checkbox" id="toggle"/>
+              
+              <a href="#" id="nav1-cta">Never Settle</a>
+          </nav>
+      </div>
+  </header>
+    <div id="fullpage">
+      <div class="section s1">
+        <div>
+          <img
+            src="op7t0.png"
+            alt=""
+            id="opc0"
+            
+          />
+        </div>
+        <div class="opc1" >
+          <h1></h1>
+          <h2></h2>
+          <div class="opc2" >
+          <a href="#" id="nav1-cta2"><h2>1000 nits Brightness</h2></a>
+          <a href="#" id="nav1-cta2"><h2>In display fingerprint</h2></a>
+          <a href="#" id="nav1-cta2"><h2>HDR 10+</h2></a>
+          <a href="#" id="nav1-cta2"><h2>90Hz Refresh rate</h2></a>
+          
+          </div>
+          
+        </div>
+        
+        
+      </div>
+      
+      <div class="section s2">
+        <div class="s2cont" style="display: flex;flex-direction: row;">
+          <img src="op7t6.png" alt="" id="bg2img">
+          <div class="s2con" >
+            <h1 >1000 nits Brightness</h1>
+            <h2 >In direct sunlight, an astonishing 1,000 nits of brightness ensures that everything is clear and vivid. In the dark, TÜV-certified blue-light reduction allows for safer, more comfortable nighttime reading. It’s the smartphone display that’s designed to go anywhere.</h2>
+            
+          
+          </div>
+           </div>
+        
+      </div>
+      <div class="section s3">
+        <div class="s2cont" style="display: flex;flex-direction: row;">
+          <div class="s3con0">
+            <h1 id="s31h1" >In display fingerprint</h1>
+            <h2 id="s31h2" >Improved with new sensors and algorithms, our next-generation fingerprint reader is more accurate and more secure. Simply tap on the display to unlock the OnePlus 7T in an instant.</h2>
+          </div>
+          <img src="op7t4.png" alt="" id="bg2imgx" >
+        </div>
+        
+      </div>
+      <div class="section s2">
+        <div class="s2cont" style="display: flex;flex-direction: row;">
+          <img src="op7t3.png" alt="" id="bg2imgy">
+          
+          <div class="s2con1">
+             <h1 id="s22h1">HDR 10+</h1>
+            <h2 id="s22h2">Binge all your favorites in jaw-dropping clarity with HDR playback on Netflix, YouTube, and Amazon Prime Video. HDR10+ produces deeper blacks, brighter whites, and more true-to-life visuals for stunning movies, games, and photos. Experience more immersive entertainment, anytime, anywhere.</h2>
+          </div>
+           </div>
+        
+      </div>
+      <div class="section s3">
+        <div class="s2cont" style="display: flex;flex-direction: row;">
+          
+          
+          <div class="s3con" >
+             <h1 id="s32h1" >90Hz Refresh rate</h1>
+            <h2 id="s32h2" >The OnePlus 7T’s smooth 90 Hz refresh rate is enhanced by over 370 optimizations in OxygenOS for seamless visuals and ultra-responsive touch design. Once you experience the smoothness of Fluid Display, you’ll never settle for anything less.</h2>
+        
+          </div>
+          <img src="op7t2.png" alt="" id="bg2imgz">
+           </div>
+        
+      </div>
+      <div class="section s4">
+        <h1>OnePlus 7T</h1>
+        <h1> <a href="" id="nav1-cta3" style="color: red;">Home</a> </h1>
+        
+      </div>
+      
+      
+      
+      
+      
+      
+    </div>
+    
+
+    <script>
+      window.addEventListener("scroll", function() {
+        let header = document.querySelector("header");
+        let windowPosition = window.scrollY > 0;
+        header.classList.toggle("scrolling-active", windowPosition);
+      });
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.js"></script>
+    <script>
+      new fullpage("#fullpage", {
+        autoScrolling: true,
+        navigation: true,
+        showActiveTooltip: true,
+        scrollingSpeed: 1000,
+        controlArrows: false,
+        slidesNavigation: true
+      });
+    </script>
+  </body>
+</html>
